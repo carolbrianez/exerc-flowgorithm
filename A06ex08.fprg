@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="ALUNO"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-03-28 09:26:57 "/>
+        <attribute name="saved" value="2025-03-28 10:09:07 "/>
         <attribute name="created" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDk6MTA6NDggIjsyMTA4"/>
-        <attribute name="edited" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDk6MjY6NTcgIjsyOzIyMjQ="/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMTA6MDk6MDcgIjszOzIyMTM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -24,6 +24,7 @@
             <output expression="&quot;Informe a dist&#226;ncia da viagem 3: &quot;" newline="True"/>
             <input variable="dist3"/>
             <output expression="&quot;Voc&#234; precisa reabastecer: &quot; &amp; (dist1 + dist2 + dist3 &gt;= autonomia)" newline="True"/>
+            <output expression="&quot;Ser&#225; necess&#225;rio reabastecer m&#250;ltiplas vezes? &quot; &amp; (dist1 + dist2 + dist3 /autonomia&gt;=2)" newline="True"/>
         </body>
     </function>
 </flowgorithm>
