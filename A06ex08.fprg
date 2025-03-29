@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-28 09:26:57 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDk6MTA6NDggIjsyMTA4"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDk6MjY6NTcgIjsyOzIyMjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tanque, autonomia" type="Integer" array="False" size=""/>
+            <declare name="dist1, dist2, dist3" type="Integer" array="False" size=""/>
+            <assign variable="tanque" expression="30"/>
+            <assign variable="autonomia" expression="650"/>
+            <output expression="&quot;Informe a dist&#226;ncia da viagem 1: &quot;" newline="True"/>
+            <input variable="dist1"/>
+            <output expression="&quot;Voc&#234; precisa reabastecer: &quot; &amp; (dist1 &gt;= autonomia)" newline="True"/>
+            <output expression="&quot;Informe a dist&#226;ncia da viagem 2: &quot;" newline="True"/>
+            <input variable="dist2"/>
+            <output expression="&quot;Voc&#234; precisa reabastecer: &quot; &amp; (dist1 + dist2 &gt;= autonomia)" newline="True"/>
+            <output expression="&quot;Informe a dist&#226;ncia da viagem 3: &quot;" newline="True"/>
+            <input variable="dist3"/>
+            <output expression="&quot;Voc&#234; precisa reabastecer: &quot; &amp; (dist1 + dist2 + dist3 &gt;= autonomia)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
