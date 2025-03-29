@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-28 09:10:03 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDg6NTA6NTMgIjsyMTA3"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDk6MTA6MDMgIjsxOzIyMDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fruta" type="String" array="False" size=""/>
+            <assign variable="fruta" expression="&quot;pitaya&quot;"/>
+            <declare name="palpite1" type="String" array="False" size=""/>
+            <declare name="palpite2" type="String" array="False" size=""/>
+            <declare name="palpite3" type="String" array="False" size=""/>
+            <output expression="&quot;Adivinhe a fruta: p _ _ _ _ a&quot;" newline="True"/>
+            <input variable="palpite1"/>
+            <output expression="&quot;Palpite 1: &quot; &amp;(palpite1 = fruta)" newline="True"/>
+            <input variable="palpite2"/>
+            <output expression="&quot;Palpite 2: &quot; &amp; (palpite2 = fruta)" newline="True"/>
+            <input variable="palpite3"/>
+            <output expression="&quot;Palpite 3: &quot; &amp; (palpite3 = fruta)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
