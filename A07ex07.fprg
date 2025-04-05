@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 09:12:12 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTI7MjAyNS0wNC0wNDsiMDg6NTk6NTYgIjsyMTEz"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTI7MjAyNS0wNC0wNDsiMDk6MTI6MTIgIjsxOzIyMDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p1, p2, p3, fruta" type="String" array="False" size=""/>
+            <assign variable="fruta" expression="&quot;pitaya&quot;"/>
+            <output expression="&quot;Dica: come&#231;a com a letra P&quot;" newline="True"/>
+            <output expression="&quot;Quais s&#227;o seus 3 palpites?&quot;" newline="True"/>
+            <input variable="p1"/>
+            <input variable="p2"/>
+            <input variable="p3"/>
+            <output expression="&quot;Acertou? &quot; &amp; (p1=fruta || p2=fruta || p3 = fruta)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

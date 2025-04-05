@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 08:26:18 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTI7MjAyNS0wNC0wNDsiMDg6MTY6MzIgIjsyMTAw"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTI7MjAyNS0wNC0wNDsiMDg6MjY6MTggIjsxOzIyMTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="vmin, vmax, vatual" type="Integer" array="False" size=""/>
+            <assign variable="vmax" expression="120"/>
+            <assign variable="vmin" expression="vmax/2"/>
+            <output expression="&quot;Digite a velocidade atual: &quot;" newline="True"/>
+            <input variable="vatual"/>
+            <output expression="&quot;Dentro do limite de velocidade? &quot; &amp; (vatual &lt;= vmax &amp;&amp; vatual &gt;= vmin)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

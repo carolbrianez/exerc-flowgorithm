@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-04 07:35:07 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMTI7MjAyNS0wNC0wNDsiMDc6Mjk6MjQgIjsyMTA0"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMTI7MjAyNS0wNC0wNDsiMDc6MzU6MDcgIjsyOzIyMTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="media, frequencia" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a m&#233;dia:&quot;" newline="True"/>
+            <input variable="media"/>
+            <output expression="&quot;Digite a frequ&#234;ncia:&quot;" newline="True"/>
+            <input variable="frequencia"/>
+            <output expression="&quot;Aprovado? &quot; &amp; (media &gt;= 6 &amp;&amp; frequencia &gt;= 75)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
