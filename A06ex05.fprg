@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="A06ex05"/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 04:57:35 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDg6Mjc6MjIgIjsyMTA3"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDg6MzM6MzAgIjsxOzIyMTE="/>
+        <attribute name="edited" value="YWNhcm87REVTS1RPUC1RRFZSM1ZWOzIwMjUtMDQtMDg7IjA0OjU3OjM1ICI7MTsyOTQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dep1, dep2, dep3" type="Real" array="False" size=""/>
+            <output expression="&quot;Informe o valor do 1&#186; dep&#243;sito:&quot;" newline="True"/>
+            <input variable="dep1"/>
+            <output expression="&quot;Informe o valor do 2&#186; dep&#243;sito:&quot;" newline="True"/>
+            <input variable="dep2"/>
+            <output expression="&quot;Informe o valor do 3&#186; dep&#243;sito:&quot;" newline="True"/>
+            <input variable="dep3"/>
+            <output expression="&quot;Seu saldo &#233; maior que 1000: &quot; &amp; (dep1+dep2+dep3 &gt;= 1000)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
