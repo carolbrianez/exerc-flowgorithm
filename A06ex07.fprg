@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="A06ex07"/>
+        <attribute name="authors" value="acaro"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 05:01:54 "/>
+        <attribute name="created" value="YWNhcm87REVTS1RPUC1RRFZSM1ZWOzIwMjUtMDQtMDg7IjA1OjAwOjA0ICI7MjgyNg=="/>
+        <attribute name="edited" value="YWNhcm87REVTS1RPUC1RRFZSM1ZWOzIwMjUtMDQtMDg7IjA1OjAwOjA2ICI7MTtBTFVOTztMQUJIUEMwNDsyMDI1LTAzLTI4OyIwOToxMDo0OCAiO0EwNmV4MDguZnByZzs2MTMx"/>
+        <attribute name="edited" value="YWNhcm87REVTS1RPUC1RRFZSM1ZWOzIwMjUtMDQtMDg7IjA1OjAxOjU0ICI7MTsyOTQw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tanque, autonomia, dist1" type="Integer" array="False" size=""/>
+            <assign variable="tanque" expression="30"/>
+            <assign variable="autonomia" expression="650"/>
+            <output expression="&quot;Informe a dist&#226;ncia em KMS de sua viagem: &quot;" newline="True"/>
+            <input variable="dist1"/>
+            <output expression="&quot;Voc&#234; precisa reabastecer: &quot; &amp; (dist1 &gt;= autonomia)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
