@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="A06ex02"/>
+        <attribute name="authors" value="ALUNO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 04:51:46 "/>
+        <attribute name="created" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDg6MDU6MjQgIjsyMTA1"/>
+        <attribute name="edited" value="QUxVTk87TEFCSFBDMDQ7MjAyNS0wMy0yODsiMDg6MTA6NDQgIjsyOzIyMTI="/>
+        <attribute name="edited" value="YWNhcm87REVTS1RPUC1RRFZSM1ZWOzIwMjUtMDQtMDg7IjA0OjUxOjQ2ICI7MTsyOTQ1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual a sua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Voc&#234; &#233; maior de idade? &quot; &amp; (idade &gt; 17)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
